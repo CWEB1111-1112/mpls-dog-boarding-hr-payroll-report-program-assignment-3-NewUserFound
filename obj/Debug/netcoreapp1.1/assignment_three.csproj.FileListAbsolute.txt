@@ -1,0 +1,12 @@
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\obj\Debug\netcoreapp1.1\assignment_three.csprojAssemblyReference.cache
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\obj\Debug\netcoreapp1.1\assignment_three.AssemblyInfoInputs.cache
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\obj\Debug\netcoreapp1.1\assignment_three.AssemblyInfo.cs
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\obj\Debug\netcoreapp1.1\assignment_three.csproj.CoreCompileInputs.cache
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\bin\Debug\netcoreapp1.1\assignment_three.deps.json
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\bin\Debug\netcoreapp1.1\assignment_three.runtimeconfig.json
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\bin\Debug\netcoreapp1.1\assignment_three.runtimeconfig.dev.json
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\bin\Debug\netcoreapp1.1\assignment_three.dll
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\bin\Debug\netcoreapp1.1\assignment_three.pdb
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\obj\Debug\netcoreapp1.1\assignment_three.dll
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\obj\Debug\netcoreapp1.1\assignment_three.pdb
+C:\Users\meiluca\Desktop\SCHOOL\secondSemester\programmingFundamentals2\assignments\assignment02_cweb1112_01\obj\Debug\netcoreapp1.1\assignment_three.genruntimeconfig.cache
