@@ -9,7 +9,6 @@ namespace assignment_three
         public double Department_Number { get; }
         public double Hourly_Salary { get; set; }
         public double Number_Of_Hours_Worked { get; set; }
-        public string employee_Report { get; set; }
         
         public Payroll_Report_Input(string name, double initialSalary, double initial_Hours_Worked, int department)
         {
