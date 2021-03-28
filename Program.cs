@@ -93,6 +93,7 @@ namespace assignment_three
         }
         static string pad(string department)
         {
+            //Adding padding for table
             int collumnWidth = 30;
             int departmentWidth = department.Length;
             string paddingDepartment = department;
