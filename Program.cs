@@ -33,7 +33,7 @@ namespace assignment_three
                 Prompt_Total_Salary(DEPARTMENT_ARRAY,  totals);
                 Console.WriteLine("To enter employee Payroll data press the 1 key [1] else to get payroll for all departments enter the 2 key [2].");    
             }
-            
+            //Output
             Console.WriteLine("");
             Console.WriteLine(pad("DEPARTMENTS") + "TOTALS");
             Console.WriteLine(pad("-----------")+"------");
