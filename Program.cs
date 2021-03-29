@@ -13,11 +13,11 @@ namespace assignment_three
     {
         static void Main(string[] args)
         {   
-            //declare string for Departments and list
+            //declare string for Departments, totals, and department list
             string[] DEPARTMENT_ARRAY = {"Personnel","Marketing","Information Technology","Computer Services","Sales","Legal","Accounting"};
             double[] totals = {0,0,0,0,0,0,0};
-
             List<string> departmentList = new List<string>();
+
             //Iterate through the array and populate the list for departments
             for (var i = 0; i < DEPARTMENT_ARRAY.Length; i++)
             {
@@ -50,6 +50,7 @@ namespace assignment_three
                 int Department_Number;
                 string Employee_Name;
                 double Hourly_Rate, Hours_Worked, salary_Employee;
+                
                 //input of user data for department
                 //loop displays department numbers and names
                 for (var i = 0; i < DEPARTMENT_ARRAY.Length; i++)
@@ -58,6 +59,8 @@ namespace assignment_three
                 }
                 Console.WriteLine("Please Enter the Employees department number:");
                 Department_Number = Convert.ToInt32(Console.ReadLine());
+
+                //initialize index
                 index = Department_Number - 1;
 
                 //Validate department number
@@ -85,6 +88,11 @@ namespace assignment_three
                     //logic for total salary
                     salary_Employee = Hours_Worked*Hourly_Rate;
                     totals[index] = totals[index] + salary_Employee;
+                    Console.WriteLine($"{Employee_Name}'s entry has been added to the total.");
+                }
+                else
+                {
+                    Console.WriteLine($"{Employee_Name}'s entry has not been added to the total.");
                 }
             }
             //invalid input catch
@@ -101,6 +109,8 @@ namespace assignment_three
             string paddingDepartment = department;
             int padSpace = collumnWidth - departmentWidth;
             int tabCounter = padSpace / 8;
+
+            //counting for tab length per department length
             while(tabCounter-- > 0)
             {
                 paddingDepartment += "\t";
