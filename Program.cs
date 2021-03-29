@@ -51,6 +51,7 @@ namespace assignment_three
                 string Employee_Name;
                 double Hourly_Rate, Hours_Worked, salary_Employee;
                 //input of user data for department
+                //loop displays department numbers and names
                 for (var i = 0; i < DEPARTMENT_ARRAY.Length; i++)
                 {
                     Console.WriteLine($"[{i+1}] for {DEPARTMENT_ARRAY[i]}");
@@ -78,6 +79,7 @@ namespace assignment_three
                 Console.WriteLine($"Employee:\t{Employee_Name}\nDepartment:\t{Department_Number}\nHourly Rate:\t{Hourly_Rate}\nHours Worked:\t{Hours_Worked}");
                 Console.WriteLine("Is the data entered correct [Y] or [N]?");
 
+                //Guard for salary totaling
                 if(Console.ReadLine().ToUpper() == "Y")
                 {
                     //logic for total salary
