@@ -23,9 +23,13 @@ namespace assignment_three
             {
                 departmentList.Add(DEPARTMENT_ARRAY[i]);
             }
+            
+            //welcome prompt
             Console.WriteLine("Welcome to MPLS Dog Boarding HR Payroll Report Program\nYou will be prompted to enter the Employee's Name, Department Number, Hourly Salary, and Number of Hours Worked");
+            
             //Initialize the loop
             Console.WriteLine("To enter employee Payroll data press the 1 key [1] else to exit enter the 2 key [2].");
+            
             //looping structure
             while(Convert.ToInt32(Console.ReadLine()) == 1)
             {
@@ -33,6 +37,7 @@ namespace assignment_three
                 Prompt_Total_Salary(DEPARTMENT_ARRAY,  totals);
                 Console.WriteLine("To enter employee Payroll data press the 1 key [1] else to get payroll for all departments enter the 2 key [2].");    
             }
+            
             //Output
             Console.WriteLine("");
             Console.WriteLine(pad("DEPARTMENTS") + "TOTALS");
