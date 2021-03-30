@@ -65,10 +65,11 @@ namespace assignment_three
                 Console.WriteLine("Please Enter the Employees department number:");
                 Department_Number = Convert.ToInt32(Console.ReadLine());
 
-                //initialize index
+                //initialize index to stand for DEPARTMENT_ARRAY index number after user inputs 1-7 number
                 index = Department_Number - 1;
 
-                //Validate department number
+                //Validate department number using new Number Validate class to validate a string of 7 numbers
+                //return validation if number is accepted
                 var validate = new Number_Validate();
                 int value = validate.Department_Number_Validate(index);
                 Console.WriteLine($"{value + 1} Is an accepted Department Number.");
